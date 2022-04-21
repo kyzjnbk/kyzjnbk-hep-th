@@ -8,7 +8,10 @@ extra:
 #-----------------Navigation----------------------------------------
 nav:
     - Home: index.md
-
+    - Chroma:
+        - Perl_module:  Chroma/perl_module/Authorization.md
+    - QFT: 
+        - Peskin_solution:   Peskin_solution/Authorization.md
 
 #-----------------THEME---------------------------------------------
 theme: # https://squidfunk.github.io/mkdocs-material/getting-started/
