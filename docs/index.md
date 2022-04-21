@@ -4,8 +4,8 @@ hide:
 #   - toc
 ---
 
-[Chroma]: Chroma
-[Peskin_solution]: Peskin_solution
+[Chroma]: /docs/Chroma
+[Peskin_solution]: /docs/Peskin_solution
 
 # 科研仔技能百科
 
