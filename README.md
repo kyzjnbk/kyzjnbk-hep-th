@@ -1,6 +1,6 @@
-# kyzjnbk-template
+# kyzjnbk-hep-th
 
-科研仔技能百科-模板
+科研仔技能百科-高能理论（格点）
 
 
 ## 如何贡献？(How to contribute?)
