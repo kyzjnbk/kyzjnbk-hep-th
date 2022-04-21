@@ -1,0 +1,99 @@
+site_name: kyzjnbk-template
+repo_url: https://github.com/kyzjnbk/kyzjnbk-template
+repo_name: GitHub
+copyright: Copyright &copy; kyzjbnk
+extra:
+    version: 0.1
+
+#-----------------Navigation----------------------------------------
+nav:
+    - Home: index.md
+
+
+#-----------------THEME---------------------------------------------
+theme: # https://squidfunk.github.io/mkdocs-material/getting-started/
+    name: material
+    language: zh # 中文，解决中文搜索问题
+    features:
+        - content.code.annotate
+        # - content.tabs.link
+        # - header.autohide
+        # - navigation.expand
+        - navigation.indexes
+        # - navigation.instant
+        # - navigation.sections
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - navigation.tracking
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
+        # - toc.integrate
+    font:
+        text: Roboto
+        code: Roboto Mono
+    palette:
+      - scheme: default
+        primary: white
+        accent: white
+        toggle:
+            icon: material/toggle-switch
+            name: Switch to dark mode
+        
+      - scheme: slate
+        primary: black
+        accent: black
+        toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to light mode
+        # primary: white
+
+# Extensions
+markdown_extensions:
+    - abbr
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - wikilinks:
+        base_url: ./
+        end_url: .md
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+        emoji_index: !!python/name:materialx.emoji.twemoji
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+        repo_url_shorthand: true
+        user: squidfunk
+        repo: mkdocs-material
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+    - search
+    - mkdocs-video # https://github.com/soulless-viewer/mkdocs-video
+    - git-revision-date-localized # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
