@@ -1,4 +1,4 @@
-site_name: kyzjnbk-hep-th
+site_name: 科研仔技能百科-高能理论（格点）
 repo_url: https://github.com/kyzjnbk/kyzjnbk-hep-th
 repo_name: GitHub
 copyright: Copyright &copy; kyzjbnk
@@ -67,6 +67,9 @@ markdown_extensions:
         end_url: .md
     - toc:
         permalink: true
+    - pymdownx.snippets:
+        base_path: ['docs' ,'.']
+        check_paths: false
     - pymdownx.arithmatex:
         generic: true
     - pymdownx.betterem:
