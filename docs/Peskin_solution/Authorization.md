@@ -1,1 +1,0 @@
-## This solution is done by [Greyyy-HJC](https://github.com/Greyyy-HJC)

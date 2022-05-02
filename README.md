@@ -21,8 +21,8 @@
 下载此库至本地，并进入目录:
 
 ```shell
-git clone https://github.com/kyzjnbk/kyzjnbk
-cd kyzjnbk
+git clone https://github.com/kyzjnbk/kyzjnbk-hep-th
+cd kyzjnbk-hep-th
 ```
 
 环境配置(需要python 3.x)：
